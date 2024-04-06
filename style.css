@@ -1,0 +1,564 @@
+body{
+
+    font-family:sans-serif;
+}
+.background_image1 { 
+    background-image: url("img/body_design.png");/* imagen body */
+    background-size: cover; /* Ajusta el tamaño de la imagen para cubrir todo el contenedor */
+    background-repeat: no-repeat; /* Evita que la imagen de fondo se repita */
+    height: 100vh;
+}
+
+.background_image2 { 
+    background-image: url("img/verde.png");/* imagen body */
+    background-size: cover; /* Ajusta el tamaño de la imagen para cubrir todo el contenedor */
+    background-repeat: no-repeat; /* Evita que la imagen de fondo se repita */
+    height: 30vh;
+    background-color: rgb(221, 255, 249);
+}
+
+.background_image3 { 
+    background-image: url("img/amarillo.png");/* imagen body */
+    background-size: cover; /* Ajusta el tamaño de la imagen para cubrir todo el contenedor */
+    background-repeat: no-repeat; /* Evita que la imagen de fondo se repita */
+    height: 30vh;
+    background-color: rgb(255, 255, 210);
+}
+
+.background_image4 { 
+    background-image: url("img/naranja.png");/* imagen body */
+    background-size: cover; /* Ajusta el tamaño de la imagen para cubrir todo el contenedor */
+    background-repeat: no-repeat; /* Evita que la imagen de fondo se repita */
+    height: 30vh;
+    background-color: rgb(255, 227, 190);
+}
+
+.background_image5 { 
+    background-image: url("img/rojo.png");/* imagen body */
+    background-size: cover; /* Ajusta el tamaño de la imagen para cubrir todo el contenedor */
+    background-repeat: no-repeat; /* Evita que la imagen de fondo se repita */
+    height: 30vh;
+    background-color: rgb(255, 227, 227);
+}
+
+.header_box{/* HEADER ESTILO */
+    margin-top: 25px;
+    padding: 20px; 
+    
+    margin-left:24px ;
+    margin-right:24px ;
+    height: 28px;
+    border-radius: 12px;
+    position: fixed; /* Hace que el menú se mantenga fijo en la parte superior */
+    top: 0; /* Ancla el menú en la parte superior de la ventana del navegador */
+    /* Ancho completo del menú */
+    background-color: #ffffff; /* Cambia el color de fondo del menú según sea necesario */
+    z-index: 1000;
+  
+
+}
+
+
+
+.Gravity_header{/* gravedad botones menu */
+    display: flex;
+    gap: 25px;
+    margin-left: 770px;
+    margin-top: -12px;
+    
+
+
+}
+
+.box_menu {
+    /* botones menu */
+    font-size:13px ;
+    color: #717275;
+    transition: color 0.5s;
+    border-bottom: 2px solid transparent;
+    transition: border-bottom 0.5s;
+}
+.box_menu:hover {
+    color: #cc3f3f; /* Cambia el color al pasar el cursor sobre el elemento */
+    border-bottom-color: #dd6969; 
+}
+
+
+
+/* Estilos del logo */
+.logo {
+    width: 100px; /* Ancho del contenedor del logo */
+    height: 1px; /* Altura ajustada automáticamente según el tamaño del logo */
+
+}
+@media screen and (max-width: 1114px) {
+    .header_box{/* HEADER ESTILO */
+        margin-top: 25px;
+        padding: 20px; 
+        margin-left:24px ;
+        width: 1000px;
+        margin-right:24px ;
+        height: 28px;
+        border-radius: 12px;
+        position: fixed; /* Hace que el menú se mantenga fijo en la parte superior */
+        top: 0; /* Ancla el menú en la parte superior de la ventana del navegador */
+        /* Ancho completo del menú */
+        background-color: #ffffff; /* Cambia el color de fondo del menú según sea necesario */
+        z-index: 1000;
+      
+        
+    }
+    .Gravity_header{/* gravedad botones menu */
+        display: flex;
+        gap: 25px;
+        margin-left: 100px;
+        margin-top: -12px;
+        
+    
+    
+    }
+       
+
+    
+}
+.img{
+    height: 61px;
+    margin-top: -16px;
+    margin-left: 5px;
+
+
+}
+.HREF{
+    text-decoration: none;
+}
+
+.img_index{
+    height: 370px;
+    
+}
+.gravedad_imagen{
+    margin-left: 680px;
+    margin-top: 120px;
+
+}
+.box_titulo{
+    font-size: 20px;
+    color: black;
+    background: rgb(255, 255, 255);
+    box-shadow: 0 1rem 3rem rgba(0,0,0,.175);
+    border-radius:70px;
+    display: inline-block;
+    padding: 4px 24px ;
+    
+}
+.container_index{
+    margin-top: 200px;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    gap: 20px;
+   
+}
+.text1{
+    background-color: #ffffff;
+    padding: 1px 3%;
+    border-radius: 50px;
+    margin-left: 1%;
+    margin-right: 50%;
+    margin-top: 10px;
+}
+
+.space{
+    margin-top: -28%;
+    text-align: center;
+}
+
+.titulo1{
+    color: #9b0000;
+    background-color: #ffffff;
+    padding: 1px 3%;
+    border-radius: 70px;
+    margin-left: 10%;
+    margin-right: 60%;
+    margin-bottom: 60px;
+    font-size: 25px;
+}
+
+.titulo2{
+    margin-top: 15%;
+    margin-left: 13%;
+    font-size: 40px;
+    background-color: #ffffff;
+    margin-right: 65%;
+    text-align: center;
+    border-radius: 50px;
+    color: rgb(0, 48, 44);
+}
+
+.titulo3{
+    margin-top: 15%;
+    margin-left: 11%;
+    margin-right: 64%;
+    font-size: 40px;
+    text-align: center;
+    border-radius: 50px;
+    color: rgb(75, 73, 9);
+    background-color: #ffffff;
+}
+
+.titulo4{
+    margin-top: 15%;
+    margin-left: 10%;
+    margin-right: 63%;
+    font-size: 40px;
+    text-align: center;
+    border-radius: 50px;
+    color: rgb(75, 50, 9);
+    background-color: #ffffff;
+}
+
+
+.titulo5{
+    margin-top: 15%;
+    margin-left: 8%;
+    margin-right: 62%;
+    font-size: 40px;
+    text-align: center;
+    border-radius: 50px;
+    color: rgb(75, 9, 9);
+    background-color: #ffffff;
+}
+
+.container2{
+
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+    margin-top: 200px;
+    margin-left: 30px;
+
+}
+
+
+.box_nosotros{
+    background-color: rgba(95, 191, 255, 0.377);
+    padding: 20px;
+    border-radius: 12px;
+    width: 1000px;
+    height: 280px;
+    display: flex;
+
+    
+}
+
+.img2{
+    border-radius: 6px;
+}
+
+.text2{
+    margin-left: 80px;
+}
+
+.text2 h3{
+    font-size: 28px;
+}
+.text2 p{
+    font-size: 18px;
+}
+
+.container3{
+
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+    margin-top: 200px;
+    margin-left: 30px;
+
+}
+
+
+.box_servicio{
+    background-color: rgba(255, 128, 0, 0.377);
+    padding: 20px;
+    border-radius: 12px;
+    width: 1000px;
+    height: 200px;
+    display: flex;
+
+    
+}
+
+.img3{
+    height: 200px;
+    width: 200px;
+    border-radius: 6px;
+}
+
+.text3{
+    margin-left: 80px;
+}
+
+.container5{
+
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+    margin-top: 200px;
+    margin-left: 30px;
+
+}
+
+
+.box_actividades{
+    background-color: rgba(255, 95, 95, 0.377);
+    padding: 20px;
+    border-radius: 12px;
+    width: 1100px;
+    height: 500px;
+}
+
+.box_actividades p{
+    margin-left: 30px;
+    font-size: 18px;
+}
+
+.footer_box {
+    margin-top: 17%;
+    background-color: #33333371;
+    color: #fff;
+    position: fixed;
+    text-align: center;
+    padding: 20px; /* Hace que el footer se mantenga fijo */
+    bottom: 0; /* Lo posiciona al final de la ventana del navegador */
+    width: 97%; /* Ancho completo del footer */
+}
+.divi{
+    padding: 5%;
+}
+
+/* RESPONSIVE */ /* RESPONSIVE *//* RESPONSIVE *//* RESPONSIVE *//* RESPONSIVE *//* RESPONSIVE *//* RESPONSIVE *//* RESPONSIVE *//* RESPONSIVE *//* RESPONSIVE *//* RESPONSIVE */
+@media screen and (max-width: 600px) {
+    .footer_box {
+        font-size: 12px; /* Reducir el tamaño de fuente en dispositivos más pequeños */
+    }
+}
+@media screen and (max-width: 1114px) {
+    .header_box{/* HEADER ESTILO */
+        margin-top: 25px;
+        padding: 20px; 
+        margin-left:24px ;
+        width: 1000px;
+        margin-right:24px ;
+        height: 28px;
+        border-radius: 12px;
+        position: fixed; /* Hace que el menú se mantenga fijo en la parte superior */
+        top: 0; /* Ancla el menú en la parte superior de la ventana del navegador */
+        /* Ancho completo del menú */
+        background-color: #ffffff; /* Cambia el color de fondo del menú según sea necesario */
+        z-index: 1000;
+      
+        
+    }
+    .Gravity_header{/* gravedad botones menu */
+        display: flex;
+        gap: 25px;
+        margin-left: 100px;
+        margin-top: -12px;
+        
+    
+    
+    }
+       
+
+    
+}
+@media screen and (max-width: 1000px) {
+    .header_box{/* HEADER ESTILO */
+        margin-top: 25px;
+        padding: 20px; 
+        margin-left:10px ;
+        width: 100%;
+        margin-right:24px ;
+        height: 28px;
+        border-radius: 12px;
+        position: fixed; /* Hace que el menú se mantenga fijo en la parte superior */
+        top: 0; /* Ancla el menú en la parte superior de la ventana del navegador */
+        /* Ancho completo del menú */
+        background-color: #ffffff; /* Cambia el color de fondo del menú según sea necesario */
+        z-index: 1000;
+      
+        
+    }
+    .Gravity_header{/* gravedad botones menu */
+        display: flex;
+        gap: 25px;
+        margin-left: 100px;
+        margin-top: -12px;
+
+  
+        
+
+
+    
+}
+.box_nosotros{
+    background-color: rgba(95, 191, 255, 0.377);
+    padding: 20px;
+    border-radius: 12px;
+    width: fit-content; /* Anchura ajustable al contenido */
+    height: fit-content; /* Altura ajustable al contenido */
+    display: flex;
+    flex-direction: column; /* Cambiar la dirección a columna */
+    justify-content: center; /* Alinear los elementos verticalmente */
+    align-items: center; /* Alinear los elementos horizontalmente */
+    overflow: hidden; /* Para ocultar el texto que se desborde */
+   
+    
+}
+.box_nosotros img {
+    width: 100px; /* Ajustar el tamaño de la imagen según sea necesario */
+    height: auto; /* Mantener la proporción de la imagen */
+    border-radius: 6px;
+}
+
+.box_nosotros p {
+    font-size: 2vw; /* Tamaño del texto ajustado al ancho de la caja */
+    /* Puedes ajustar este valor según tus preferencias */
+    margin: 20px 0 0; /* Ajustar el margen superior del párrafo */
+}
+.container2{
+
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+    margin-top: 200px;
+    margin-left: 30px;
+    margin-right: 10px;
+    gap: 100px;
+
+}
+.img2{
+    border-radius: 6px;
+}
+.text2 h3{
+    font-size: 28px;
+}
+.text2 p{
+    font-size: 25px;
+}
+.text2{
+    margin-left: 20px;
+}
+}
+@media screen and (max-width: 600px) {
+    .container_index{
+        margin-top: 140px;
+        margin-left: 20px;
+        display: flex;
+        flex-direction: column; 
+        align-items: center; 
+        gap: 20px;
+    }    
+    .box_titulo{
+        font-size: 15px;
+     
+        
+    }
+    .text2 h3{
+        font-size: 25px;
+    }
+  
+    .text2 p{
+        font-size: 18px;
+    }
+   
+}
+@media screen and (max-width: 380px) {
+    .container_index{
+        margin-top: 140px;
+        margin-left: 20px;
+        display: flex;
+        flex-direction: column; 
+        align-items: center; 
+        gap: 20px;
+    }    
+    .box_titulo{
+        font-size: 10px;
+     
+        
+    }
+    
+    .header_box{
+        padding: 20px; 
+        background-color: white;
+        margin-left: 12px;
+        margin-right:1px;
+        height: 8px;
+        }
+    
+        .Gravity_header{
+            margin-left: 70px;
+        }
+        .box_menu{
+            font-size: 8px;
+        }
+    
+        .img{
+            height: 40px;
+            margin-left: 0px;
+        }
+        
+    }
+    @media screen and (max-width: 462px) {
+        .container_index{
+            margin-top: 140px;
+            margin-left: 20px;
+            display: flex;
+            flex-direction: column; 
+            align-items: center; 
+            gap: 20px;
+        }    
+        .box_titulo{
+            font-size: 10px;
+         
+            
+        }
+        
+        .header_box{
+            padding: 20px; 
+            background-color: white;
+            margin-left: 12px;
+            margin-right:1px;
+            height: 8px;
+            }
+        
+            .Gravity_header{
+                margin-left: 70px;
+            }
+            .box_menu{
+                font-size: 6px;
+            }
+        
+            .img{
+                height: 40px;
+                margin-left: 0px;
+            }
+            .Gravity_header{/* gravedad botones menu */
+                display: flex;
+                gap: 10px;
+                margin-left: 770px;
+                margin-top: -12px;
+                
+            
+            
+            }
+        }
+        @media screen and (max-width: 330px) {
+
+            .box_titulo{
+                font-size: 8px;
+             
+                
+            }
+        }

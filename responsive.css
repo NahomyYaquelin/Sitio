@@ -1,0 +1,25 @@
+@media only screen and (max-width: 450px) {
+    .header_box{
+    padding: 20px; 
+    background-color: white;
+    margin-left: 12px;
+    margin-right:1px;
+    height: 8px;
+    }
+
+    .Gravity_header{
+        margin-left: 70px;
+    }
+    .box_menu{
+        font-size: 8px;
+    }
+
+    .img{
+        height: 40px;
+        margin-left: 0px;
+    }
+}
+
+@media screen {
+    
+}
